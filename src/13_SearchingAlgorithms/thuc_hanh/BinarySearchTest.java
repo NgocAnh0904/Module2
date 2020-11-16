@@ -1,6 +1,9 @@
 package SearchingAlgorithms.thuc_hanh;
 
-public class Main {
+import static SearchingAlgorithms.thuc_hanh.BinarySearch.binarySearch;
+import static SearchingAlgorithms.thuc_hanh.BinarySearch.list;
+
+public class BinarySearchTest {
     public static void main(String[] args) {
         System.out.println(binarySearch(list, 2));  /* 0 */
         System.out.println(binarySearch(list, 11)); /* 4 */
