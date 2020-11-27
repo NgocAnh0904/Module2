@@ -2,6 +2,7 @@ package ArrayJava.bai_tap;
 
 import java.util.Arrays;
 import java.util.Scanner;
+import java.util.regex.Pattern;
 
 public class AddArr {
     public static void main(String[] args) {
@@ -47,7 +48,6 @@ public class AddArr {
             }
         }
         System.out.println(Arrays.toString(addArr));
-
 
     }
 }

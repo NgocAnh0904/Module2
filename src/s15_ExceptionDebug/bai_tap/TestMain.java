@@ -1,4 +1,5 @@
-package ExceptionDebug.bai_tap;
+package s15_ExceptionDebug.bai_tap;
+
 
 import java.util.Scanner;
 
@@ -9,7 +10,7 @@ public class TestMain    {
         double a = input.nextDouble();
         double b = input.nextDouble();
         double c = input.nextDouble();
-        Triangle triangle = new Triangle(a,b,c);
+      Triangle triangle = new Triangle(a,b,c);
         System.out.println("Finally");
     }
 }

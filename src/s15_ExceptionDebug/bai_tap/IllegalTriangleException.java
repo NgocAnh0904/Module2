@@ -1,10 +1,11 @@
-package ExceptionDebug.bai_tap;
+package s15_ExceptionDebug.bai_tap;
 
-public class IllegalTriangleException extends Exception{
+public class IllegalTriangleException extends Exception {
     public IllegalTriangleException(double side) {
         super(side + " Lỗi tổng 2 cạnh bé hơn cạnh còn lại");
     }
-    public IllegalTriangleException(){
+
+    public IllegalTriangleException() {
         super("Cạnh bé hơn 0");
     }
 }

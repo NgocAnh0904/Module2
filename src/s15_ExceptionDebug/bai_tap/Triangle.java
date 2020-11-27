@@ -1,4 +1,4 @@
-package ExceptionDebug.bai_tap;
+package s15_ExceptionDebug.bai_tap;
 
 public class Triangle {
     private double slide1;
@@ -9,7 +9,7 @@ public class Triangle {
 
     }
 
-    Triangle(double slide1, double slide2, double slide3) throws IllegalTriangleException {
+    public Triangle(double slide1, double slide2, double slide3) throws IllegalTriangleException {
         if (slide1 >= slide2 + slide3) {
             throw new IllegalTriangleException(slide1);
         } else if (slide2 >= slide1 + slide3) {
